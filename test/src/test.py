@@ -11,6 +11,14 @@ class Doc(object):
         :param str n: a string n
         :rtype: int
         """
+        
+    def bar(self, x):
+        """
+        Bar does not do much
+
+        :param int x: an integer x
+        :rtype: string
+        """
 
 def r_foo(x, y):
     """
