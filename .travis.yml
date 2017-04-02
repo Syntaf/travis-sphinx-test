@@ -7,3 +7,4 @@ install:
 
 script:
     - travis-sphinx --pullrequests --source=test/docs/source build
+    - travis-sphinx deploy
