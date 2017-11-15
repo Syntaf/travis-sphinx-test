@@ -2,7 +2,7 @@ language: python - "2.7"
 sudo: false
 
 install:
-    - pip install --user git+https://github.com/syntaf/travis-sphinx
+    - pip install --user travis-sphinx
     - export PATH=$HOME/.local/bin:$PATH
 
 script:
